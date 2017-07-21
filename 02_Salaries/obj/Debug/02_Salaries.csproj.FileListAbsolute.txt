@@ -1,0 +1,6 @@
+D:\Repositories\HomeWorks\02_Salaries\02_Salaries\bin\Debug\02_Salaries.exe.config
+D:\Repositories\HomeWorks\02_Salaries\02_Salaries\obj\Debug\02_Salaries.csprojResolveAssemblyReference.cache
+D:\Repositories\HomeWorks\02_Salaries\02_Salaries\bin\Debug\02_Salaries.exe
+D:\Repositories\HomeWorks\02_Salaries\02_Salaries\bin\Debug\02_Salaries.pdb
+D:\Repositories\HomeWorks\02_Salaries\02_Salaries\obj\Debug\02_Salaries.exe
+D:\Repositories\HomeWorks\02_Salaries\02_Salaries\obj\Debug\02_Salaries.pdb
