@@ -9,24 +9,24 @@ namespace _02_Salaries
         const double workingDaysPerMonth = 20.8;
         int randomIntegerValue = RandomUtility.GetRandomInteger(1, 100);
         int randomIntegerValueOfEmployeeName = RandomUtility.GetRandomInteger(0, employeeNames.Count());
-        int _salaryPerHour;
+        public int SalaryPerHour { get; }
         public EmployeeWithHourBasedSalary(string employeeName, int employeeID, int salaryPerHour)
         {
             this.EmployeeName = employeeName;
             this.EmployeeID = employeeID;
-            this._salaryPerHour = salaryPerHour;
+            this.SalaryPerHour = salaryPerHour;
         }
         public EmployeeWithHourBasedSalary(int employeeID)
         {
             this.EmployeeName = employeeNames[randomIntegerValueOfEmployeeName];
             this.EmployeeID = employeeID;
-            this._salaryPerHour = randomIntegerValue;
+            this.SalaryPerHour = randomIntegerValue;
         }
         public override int CalculateAverageMonthSalary
         {
             get
             {
-                return Convert.ToInt16(workingDaysPerMonth * workingHoursPerDay * _salaryPerHour);
+                return Convert.ToInt16(workingDaysPerMonth * workingHoursPerDay * SalaryPerHour);
             }
         }
         public override int CompareTo(Employee secondEmployee)

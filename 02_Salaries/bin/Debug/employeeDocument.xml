@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Employees>
+  <Employee SalaryBase="MonthBased">
+    <ID>0</ID>
+    <Name>Arsen</Name>
+    <MonthSalary>9457</MonthSalary>
+  </Employee>
+  <Employee SalaryBase="MonthBased">
+    <ID>1</ID>
+    <Name>Levon</Name>
+    <MonthSalary>4026</MonthSalary>
+  </Employee>
+  <Employee SalaryBase="MonthBased">
+    <ID>2</ID>
+    <Name>Arsen</Name>
+    <MonthSalary>7172</MonthSalary>
+  </Employee>
+  <Employee SalaryBase="MonthBased">
+    <ID>3</ID>
+    <Name>Levon</Name>
+    <MonthSalary>2869</MonthSalary>
+  </Employee>
+  <Employee SalaryBase="HourBased">
+    <ID>4</ID>
+    <Name>Oleksii</Name>
+    <MonthSalary SalaryPerHour="92">15309</MonthSalary>
+  </Employee>
+  <Employee SalaryBase="HourBased">
+    <ID>5</ID>
+    <Name>Oleksii</Name>
+    <MonthSalary SalaryPerHour="64">10650</MonthSalary>
+  </Employee>
+  <Employee SalaryBase="HourBased">
+    <ID>6</ID>
+    <Name>Vasya</Name>
+    <MonthSalary SalaryPerHour="94">15642</MonthSalary>
+  </Employee>
+</Employees>
